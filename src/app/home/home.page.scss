@@ -1,0 +1,155 @@
+// .main{
+//   height: 100%;
+//   background-color: #111518;
+//   overflow: hidden visible;
+// }
+
+
+// .tech-sector{}
+
+// .tech-sector-title{
+//     color: white;
+//     font-weight: 500;
+// }
+
+// img {
+//     border-radius: 50%;
+//     height: 47px;
+//     width: 47px;
+// }
+
+// .company-info{
+//     display: flex;
+//     flex-direction: row;
+//     margin-top: 10px;
+// }
+
+// .company-name {
+//     margin-left: 10px;
+//     align-items: center;
+//     display: flex;
+// }
+
+// .company-title {
+//     color: #b5b6b8;
+//     font-weight: 200;
+//     font-size: 15px;
+// }
+
+
+.app-header {
+  display: flex;
+  flex-direction: row;
+  flex: 100;
+  margin-top: 50px;
+}
+
+.app-logo {
+  flex: 75;
+  height: 44px;
+  margin-left: 25px;
+  margin-top: 34px;
+  margin-bottom: 20px
+}
+
+.app-profile {
+  flex: 25;
+  height: 44px;
+  margin-left: 25px;
+  margin-top: 29px;
+  margin-bottom: 20px;
+}
+
+.segment-button-checked ::ng-deep{
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 33px;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: #EFEFEF;
+   text-transform:none!important;
+  --indicator-color: #a0a0a0!important; 
+}
+
+ion-segment-button{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform:none!important;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #7F8489;
+  --indicator-color: #7f8489 !important; 
+}
+
+
+.main {
+  height: 100%;
+  background-color: #111518;
+  overflow: hidden visible;
+}
+
+#container { 
+  background-color: #111518;
+  padding: 20px 20px 0px 20px;
+   display: flex;
+  flex-direction: column;
+}
+
+
+
+.recently-closed {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  background-color: #111518;
+  padding: 20px;
+}
+
+.dc-deal-card {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  background-color: #111518;
+  padding: 20px;
+}
+
+.dc-deal-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-deal-dc-store {
+  margin-top: 16px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+.tiltle-rec-closed{
+  margin-top: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  color: #EFEFEF;
+}
+
+.contact-us-box {
+    background-color: #111518;
+    padding: 20px;
+     display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,70 @@
+<div class="main">
+  <div class="app-header">
+    <div class="app-logo">
+      <img src="../../assets/icon/Logo.png" alt="Avatar" />
+    </div>
+
+    <div (click)="openProfilePage()" class="app-profile">
+      <img src="../../assets/icon/Profile Picture.png" alt="Avatar" />
+    </div>
+  </div>
+
+  <ion-segment style="margin-top: 20px" [(ngModel)]="segment" value="live">
+    <ion-segment-button value="live">
+      <ion-label> Live Deals </ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="feed">
+      <ion-label> Feed </ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <div [ngSwitch]="segment">
+
+    <div *ngSwitchCase="'feed'">
+      <div id="container">
+        <app-feed></app-feed>
+      </div>
+    </div>
+
+    <div *ngSwitchCase="'live'">
+      <div id="container">
+        <app-deal-card (click)="overview()" ></app-deal-card>
+        <app-deal-card></app-deal-card>
+
+        <span class="tiltle-rec-closed">Recently Closed</span>
+      </div>
+      <div class="recently-closed">
+        <app-recently-closed-card></app-recently-closed-card>
+        <app-recently-closed-card></app-recently-closed-card>
+        <app-recently-closed-card></app-recently-closed-card>
+        <app-recently-closed-card></app-recently-closed-card>
+        <app-recently-closed-card></app-recently-closed-card>
+        <app-recently-closed-card></app-recently-closed-card>
+      </div>
+      <div class="dc-deal-card">
+        <app-dc-deal-card></app-dc-deal-card>
+        <app-dc-deal-card></app-dc-deal-card>
+        <app-dc-deal-card></app-dc-deal-card>
+        <app-dc-deal-card></app-dc-deal-card>
+        <app-dc-deal-card></app-dc-deal-card>
+      </div>
+
+      <div class="dc-deal-content">
+        <span class="title-deal-dc-store">Deals by DC Store</span>
+      </div>
+
+      <div class="contact-us-box">
+        <app-contact-us-card></app-contact-us-card>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <app-portfolio style="overflow: auto;"></app-portfolio> -->
+<!-- <app-portfolio-card-overview style="overflow: auto;"></app-portfolio-card-overview> -->
+<!-- <app-portfolio-card-details  style="overflow: auto;"></app-portfolio-card-details> -->
+<!-- <app-profile style="overflow: auto;"></app-profile> -->
+<!-- <app-login style="overflow: auto;"></app-login> -->
+<!-- <app-change-password style="overflow: auto;"></app-change-password> -->
+<!-- <app-agreement style="overflow: auto;"></app-agreement> -->
+<!-- <app-review style="overflow: auto;"></app-review> -->

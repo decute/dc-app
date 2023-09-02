@@ -1,0 +1,53 @@
+.main {
+    background-color: #202123;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 15px;
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 15rem;
+    margin-right: 10px;
+}
+
+.tech-sector-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+img {
+    border-radius: 50%;
+    height: 47px;
+    width: 47px;
+}
+
+.company-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.company-detail {
+    display: flex;
+    flex-direction: row;
+}
+
+.company-name {
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.company-title {
+    font-family: 'Lato'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    color: #EFEFEF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}

@@ -1,0 +1,58 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #202123;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  transition: 0.3s;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.sell-sec-title {
+  margin-top: 10px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: #fdfdfd;
+}
+
+.sell-title {
+  margin-top: 10px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #7f8489;
+  mix-blend-mode: normal;
+}
+
+.contact-button {
+  background-color: #f3f3f3;
+  border: none;
+  padding: 13px 50px 13px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #1a1d1f;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}

@@ -1,0 +1,135 @@
+<div class="main">
+  <img class="img-adj" src="../../assets/icon/Ellipse 2.png" />
+
+  <img class="img-adj" src="../../assets/icon/background-image.png" />
+
+  <div class="portfolio-title-content">
+    <div (click) = "dashboard()" class="back-content">
+      <img src="../../assets/icon/back.png" alt="back" />
+    </div>
+    <span class="portfolio-title"> ApnaMart </span>
+  </div>
+
+  <div class="portfolio-details">
+    <div class="invest-div">
+      <span class="tit">Invested</span>
+      <span
+        ><span class="money-div">4.75</span
+        ><span class="money-shorthand">M</span></span
+      >
+      <span class="currency">USD</span>
+    </div>
+
+    <div class="current-div">
+      <span class="tit">Current</span>
+      <span
+        ><span class="money-div">6.10</span
+        ><span class="money-shorthand">M</span></span
+      >
+      <span class="currency">USD</span>
+    </div>
+
+    <div class="gain-div">
+      <span class="tit">Gains</span>
+      <span
+        ><span class="money-div success">1.35</span
+        ><span class="money-shorthand success">M</span></span
+      >
+      <span class="currency">USD</span>
+    </div>
+  </div>
+
+  <div class="app-title-content">
+    <div class="app-title">
+      <span class="title">Overview</span>
+    </div>
+  </div>
+
+  <div class="overview-sub-content">
+    <div class="content-one">
+      <span class="content-one-title"> DC Score</span>
+      <span class="content-two-title"> 86 / 100</span>
+    </div>
+    <div class="content-two">
+      <span class="content-one-title"> Sub Market</span>
+      <span class="content-two-title"> Fintech</span>
+    </div>
+  </div>
+
+  <div class="overview-sub-content">
+    <div class="content-one">
+      <span class="content-one-title"> Seed Sub Stage</span>
+      <span class="content-two-title"> Early revenue</span>
+    </div>
+    <div class="content-two">
+      <span class="content-one-title"> Fundraise amount</span>
+      <span class="content-two-title"> $2M</span>
+    </div>
+  </div>
+
+  <div class="app-title-content">
+    <div class="app-title">
+      <span class="title">Portfolio update</span>
+    </div>
+  </div>
+
+  <div class="portfolio-update-card">
+    <span class="portfolio-update-title">Good News</span>
+    <span class="adj"><span class="dot">.</span ><span class="portfolio-sub-title"> Qualifying score for any deal 80/100 </span></span>
+    <span class="adj"><span class="dot">.</span ><span class="portfolio-sub-title"> Scoring 0 on any section, automatically disqualifies the opportunity </span></span> 
+    <span class="adj"><span class="dot">.</span ><span class="portfolio-sub-title"> Detailed breakdown of the scoring in the section below </span></span> 
+  </div>
+
+  <div class="portfolio-update-card">
+    <span class="portfolio-update-title">Bad News</span>
+    <span class="adj"><span class="dot">.</span ><span class="portfolio-sub-title"> Qualifying score for any deal 80/100 </span></span>
+    <span class="adj"><span class="dot">.</span ><span class="portfolio-sub-title"> Scoring 0 on any section, automatically disqualifies the opportunity </span></span> 
+    <span class="adj"><span class="dot">.</span ><span class="portfolio-sub-title"> Detailed breakdown of the scoring in the section below </span></span> 
+ 
+  </div>
+
+  <div class="app-title-content">
+    <div class="app-title">
+      <span class="title">Original Deal Memo</span>
+    </div>
+  </div>
+
+  <div class="memo-details">
+    <span class="memo-link"> Redirection link 1</span>
+    <span class="memo-text"> Some text about the link</span>
+  </div>
+
+  <div class="memo-details">
+    <span class="memo-link"> Redirection link 2</span>
+    <span class="memo-text"> Some text about the link</span>
+  </div>
+
+  <div class="app-title-content">
+    <div class="app-title">
+      <span class="title">MIS</span>
+    </div>
+  </div>
+
+  <div class="mis-content">
+    <span class="mis-title">Sub Section score</span>
+    <span class="mis-sub-title">So far the company has about 15,000 merchant app downloads, 7,000 signups.</span>
+    <div class="client-table-grid">
+      <ion-grid class="ion-margin">
+        <ion-row>
+          <ion-col>S.No</ion-col>
+          <ion-col>Client</ion-col>
+          <ion-col>False</ion-col>
+        </ion-row>
+        <ion-row *ngFor="let client of clients; index as i">
+          <ion-col>{{ i + 1 }}</ion-col>
+          <ion-col>{{ client.name }}</ion-col>
+          <ion-col>{{ client.calls }}</ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+
+ 
+
+</div>
+
